@@ -17,12 +17,14 @@
                     <span class="icon-bar"></span>
                 </button>
                 @*@Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
-                <img src="../img/logo1.png" alt="Logo"  style="width:12%;padding-top:10px;float:left;" />
+
             </div>
+            <img src="../img/logo1.png" alt="Logo" style="width:12%;padding-top:10px;float:left;" />
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
+            
+
+                <ul class="nav navbar-nav" style="float:right">
                     <li>@Html.ActionLink("خانه", "Index", "Home")</li>
-                    <li>@Html.ActionLink("درباره", "About", "Home")</li>
                     <li>@Html.ActionLink("ارتباط با ما", "Contact", "Home")</li>
                     
                     <li>@Html.ActionLink("تولیدی ها", "Index", "Businesses")</li>

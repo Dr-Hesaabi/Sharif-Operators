@@ -29,6 +29,8 @@ C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\Andycabar.dll.confi
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\Andycabar.dll
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\Andycabar.pdb
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\EntityFramework.SqlServer.dll
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\Microsoft.AI.DependencyCollector.dll
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -39,6 +41,7 @@ C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\Microsoft.Applicati
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\QRCoder.dll
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\System.Web.Helpers.dll
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\System.Web.Mvc.dll
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\System.Web.Optimization.dll
@@ -47,6 +50,8 @@ C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\System.Web.WebPages
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\System.Web.WebPages.dll
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\System.Web.WebPages.Razor.dll
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\WebGrease.dll
+C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\EntityFramework.SqlServer.xml
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\System.Web.Helpers.xml
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\System.Web.Mvc.xml
@@ -62,14 +67,6 @@ C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\Microsoft.AI.Depend
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\Microsoft.AI.Web.xml
-C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\obj\Debug\Andycabar.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\obj\Debug\Andycabar.dll
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\obj\Debug\Andycabar.pdb
-C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\QRCoder.dll
-C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\EntityFramework.dll
-C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\EntityFramework.SqlServer.dll
-C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\EntityFramework.xml
-C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\EntityFramework.SqlServer.xml
-C:\Users\nimah\Desktop\Operator-Sharif\Sharif-Operators\Andycabar\obj\Debug\Andycabar.csprojResolveAssemblyReference.cache
-C:\Users\nimah\Desktop\Operator-Sharif\Sharif-Operators\Andycabar\obj\Debug\Andycabar.dll
-C:\Users\nimah\Desktop\Operator-Sharif\Sharif-Operators\Andycabar\obj\Debug\Andycabar.pdb
+C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\obj\Debug\Andycabar.csprojResolveAssemblyReference.cache

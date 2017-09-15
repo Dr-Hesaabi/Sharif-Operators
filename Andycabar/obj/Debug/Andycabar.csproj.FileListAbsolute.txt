@@ -70,3 +70,6 @@ C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\EntityFramework.dll
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\EntityFramework.SqlServer.dll
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\EntityFramework.xml
 C:\Users\Admin\Desktop\Github\Sharif-Operators\Andycabar\bin\EntityFramework.SqlServer.xml
+C:\Users\nimah\Desktop\Operator-Sharif\Sharif-Operators\Andycabar\obj\Debug\Andycabar.csprojResolveAssemblyReference.cache
+C:\Users\nimah\Desktop\Operator-Sharif\Sharif-Operators\Andycabar\obj\Debug\Andycabar.dll
+C:\Users\nimah\Desktop\Operator-Sharif\Sharif-Operators\Andycabar\obj\Debug\Andycabar.pdb

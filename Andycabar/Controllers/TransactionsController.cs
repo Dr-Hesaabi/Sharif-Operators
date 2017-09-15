@@ -6,19 +6,12 @@ using System.Web.Mvc;
 
 namespace Andycabar.Controllers
 {
-    public class HomeController : Controller
+
+    [Gordibute]
+    public class TransactionsController : Controller
     {
+        // GET: Transactions
         public ActionResult Index()
-        {
-            return View();
-        }
-
-        public ActionResult About()
-        {
-            return View();
-        }
-
-        public ActionResult Contact()
         {
             return View();
         }

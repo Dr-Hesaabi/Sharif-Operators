@@ -19,7 +19,9 @@ namespace Andycabar.Models
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int UserId { get; set; }
 
-        public int NationalCode { get; set; }
+        [Required]
+        [StringLength(50)]
+        public string NationalCode { get; set; }
 
         public int StoreId { get; set; }
 

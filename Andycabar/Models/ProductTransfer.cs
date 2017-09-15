@@ -17,16 +17,23 @@ namespace Andycabar.Models
 
         public DateTime ProduceEvent { get; set; }
 
-        public DateTime EntranceEvent { get; set; }
+        public DateTime? EntranceEvent { get; set; }
 
-        public DateTime BarcodeEvent { get; set; }
+        public DateTime? BarcodeEvent { get; set; }
 
-        public DateTime SaleEvent { get; set; }
+        public DateTime? SaleEvent { get; set; }
 
         public DateTime SubmitEvent { get; set; }
 
         public DateTime ExpireEvent { get; set; }
 
+        public int StoreId { get; set; }
+
+        [StringLength(50)]
+        public string YourBarcode { get; set; }
+
         public virtual Product Product { get; set; }
+
+        public virtual Store Store { get; set; }
     }
 }

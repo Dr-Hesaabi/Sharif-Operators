@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "ورود به سیستم";
+}
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>ورود به سامانه ی مدیریت اندیکابور</h4>
+        <hr />
+        @if (ViewBag.Message != null)
+        {
+            <span class="text-danger">
+                @ViewBag.Message
+            </span>
+        }
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <div class="col-md-10">
+                <input type="text" class="form-control" name="Phone" placeholder="09388063351" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                <input type="text" class="form-control" name="Date" placeholder="2017-12-24" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="ورود به سیستم" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -159,7 +159,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\QrController.cs" />
-    <Compile Include="Controllers\TransactionsController.cs" />
+    <Compile Include="Controllers\TransfersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -171,7 +171,6 @@
     <Compile Include="Models\Marketer.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ProductTransfer.cs" />
-    <Compile Include="Models\SalesOfficer.cs" />
     <Compile Include="Models\Seller.cs" />
     <Compile Include="Models\Store.cs" />
     <Compile Include="Models\sysdiagram.cs" />
@@ -242,10 +241,11 @@
     <Content Include="Views\Products\Edit.cshtml" />
     <Content Include="Views\Products\Index.cshtml" />
     <Content Include="Views\Auth\Login.cshtml" />
+    <Content Include="Views\Transfers\Index.cshtml" />
+    <Content Include="Views\Transfers\Print.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Transactions\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

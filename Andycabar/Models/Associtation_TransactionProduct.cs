@@ -10,7 +10,7 @@ namespace Andycabar.Models
     {
         public int Id { get; set; }
 
-        public long ProductBarcode { get; set; }
+        public long ProductId { get; set; }
 
         public int TransactionId { get; set; }
 

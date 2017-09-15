@@ -19,7 +19,6 @@ namespace Andycabar.Models
         public virtual DbSet<Marketer> Marketers { get; set; }
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<ProductTransfer> ProductTransfers { get; set; }
-        public virtual DbSet<SalesOfficer> SalesOfficers { get; set; }
         public virtual DbSet<Seller> Sellers { get; set; }
         public virtual DbSet<Store> Stores { get; set; }
         public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
@@ -31,11 +30,6 @@ namespace Andycabar.Models
         {
             modelBuilder.Entity<Business>()
                 .HasMany(e => e.Groups)
-                .WithRequired(e => e.Business)
-                .WillCascadeOnDelete(false);
-
-            modelBuilder.Entity<Business>()
-                .HasMany(e => e.SalesOfficers)
                 .WithRequired(e => e.Business)
                 .WillCascadeOnDelete(false);
 
@@ -51,10 +45,6 @@ namespace Andycabar.Models
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Product>()
-                .Property(e => e.Profit)
-                .HasPrecision(13, 2);
-
-            modelBuilder.Entity<Product>()
                 .Property(e => e.SalePrice)
                 .HasPrecision(12, 2);
 
@@ -65,7 +55,6 @@ namespace Andycabar.Models
             modelBuilder.Entity<Product>()
                 .HasMany(e => e.Associtation_TransactionProduct)
                 .WithRequired(e => e.Product)
-                .HasForeignKey(e => e.ProductBarcode)
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Product>()
@@ -75,10 +64,6 @@ namespace Andycabar.Models
 
             modelBuilder.Entity<ProductTransfer>()
                 .Property(e => e.Barcode)
-                .IsUnicode(false);
-
-            modelBuilder.Entity<SalesOfficer>()
-                .Property(e => e.NationalCode)
                 .IsUnicode(false);
 
             modelBuilder.Entity<Seller>()
@@ -93,6 +78,11 @@ namespace Andycabar.Models
             modelBuilder.Entity<Store>()
                 .Property(e => e.Longitude)
                 .HasPrecision(15, 6);
+
+            modelBuilder.Entity<Store>()
+                .HasMany(e => e.ProductTransfers)
+                .WithRequired(e => e.Store)
+                .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Store>()
                 .HasMany(e => e.Sellers)
@@ -118,10 +108,6 @@ namespace Andycabar.Models
 
             modelBuilder.Entity<User>()
                 .HasOptional(e => e.Marketer)
-                .WithRequired(e => e.User);
-
-            modelBuilder.Entity<User>()
-                .HasOptional(e => e.SalesOfficer)
                 .WithRequired(e => e.User);
 
             modelBuilder.Entity<User>()

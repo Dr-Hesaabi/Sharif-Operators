@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Tuple<string, string, string, string>>
+
+@{
+    ViewBag.Title = "Printing...";
+}
+<table>
+    <tbody>
+        <tr></tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Item2</td>
+                <td>@item.Item3</td>
+                <td>@item.Item4</td>
+            </tr>
+            <tr>
+                <th scope="col" colspan="3">
+                    <img src="~/Qr/@item.Item1" />
+                </th>
+            </tr>
+
+            <tr>
+                <th scope="col" colspan="3">Andycabar</th>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -21,7 +21,6 @@ namespace Andycabar.Models
         [Required]
         public string Description { get; set; }
 
-        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public decimal? Profit { get; set; }
 
         public decimal SalePrice { get; set; }

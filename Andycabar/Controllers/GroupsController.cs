@@ -10,6 +10,7 @@ using Andycabar.Models;
 
 namespace Andycabar.Controllers
 {
+    [Gordibute]
     public class GroupsController : Controller
     {
         private MainModel db = new MainModel();

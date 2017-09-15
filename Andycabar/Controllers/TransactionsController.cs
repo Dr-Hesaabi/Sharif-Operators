@@ -15,5 +15,10 @@ namespace Andycabar.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public ActionResult Print(string Phone, string Date)
+        {
+            return View();
+        }
     }
 }
